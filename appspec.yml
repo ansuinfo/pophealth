@@ -12,7 +12,6 @@ permissions:
      type:
        - file
 hooks:
-   BeforeInstall:
    AfterInstall:
     - location: restartapache.sh
       runas: root
